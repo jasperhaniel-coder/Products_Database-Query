@@ -1,15 +1,8 @@
--- SQL Fundamentals: Querying the Products Database
-
 -- 1. Create a new database called store_db, then run the scripts
 -- in the products.sql file.
--- Run this from psql or your terminal (not inside a query editor
--- already connected to another database):
+
 CREATE DATABASE store_db;
--- Then connect to it and run the products.sql script, e.g. from
--- the command line:
---   psql -U your_username -d store_db -f products.sql
--- or, from inside psql after connecting to store_db:
---   \i products.sql
+
 
 
 -- 2. Select all columns from the products table.
